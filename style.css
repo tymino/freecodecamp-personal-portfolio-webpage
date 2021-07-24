@@ -4,3 +4,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --colorWhite: #f0f0f0;
+  --colorRed: #be3144;
+  --colorBlue: #45567d;
+  --colorGray: #303841;
+
+  --fontPoppins: 'Poppins', sans-serif;
+  --fontRaleway: 'Raleway', sans-serif;
+}
+
+html {
+  font-family: var(--fontPoppins);
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--colorWhite);
+}

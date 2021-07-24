@@ -4,9 +4,124 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&family=Raleway:wght@700&display=swap" rel="stylesheet">
+  
   <title>Personal Portfolio Webpage | Responsive Web Design FreeCodeCamp</title>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
 <body>
-  
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">About</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="welcome-section">
+    <h1>Hey I am Mimic</h1>
+    <p>a web developer</p>
+  </section>
+
+  <section id="projects">
+    <h2>These are some of my projects</h2>
+    <div class="grid">
+      <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank">
+        <img src="./img/works/tribute.jpg" alt="Tribute Page image">
+        <p>
+          <span class="hover-effect"><</span>
+          Tribute Page
+          <span class="hover-effect">/></span>
+        </p>
+      </a>
+      <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank">
+        <img src="./img/works/random-quote-machine.png" alt="Random quote machine image">
+        <p>
+          <span class="hover-effect"><</span>
+          Random Quote Machine
+          <span class="hover-effect">/></span>
+        </p>
+      </a>
+      <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank">
+        <img src="./img/works/calc.png" alt="JavaScript Calculator image">
+        <p>
+          <span class="hover-effect"><</span>
+          JavaScript Calculator
+          <span class="hover-effect">/></span>
+        </p>
+      </a>
+      <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank">
+        <img src="./img/works/map.jpg" alt="Map Data Across the Globe image">
+        <p>
+          <span class="hover-effect"><</span>
+          Map Data Across the Globe
+          <span class="hover-effect">/></span>
+        </p>
+      </a>
+      <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank">
+        <img src="./img/works/wiki.png" alt="Wikipedia Viewer image">
+        <p>
+          <span class="hover-effect"><</span>
+          Wikipedia Viewer
+          <span class="hover-effect">/></span>
+        </p>
+      </a>
+      <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank">
+        <img src="./img/works/tic-tac-toe.png" alt="Tic Tac Toe Game image">
+        <p>
+          <span class="hover-effect"><</span>
+          Tic Tac Toe Game
+          <span class="hover-effect">/></span>
+        </p>
+      </a>
+    </div>
+    <a href="https://codepen.io/FreeCodeCamp/" target="_blank">
+      Show all
+      <img src="./img/icons/chevron-right.svg" alt="chevron right icon">
+    </a>
+  </section>
+
+  <section id="contact">
+    <div class="header">
+      <h2>Let's work together...</h2>
+      <p>How do you take your coffee?</p>
+    </div>
+    <div class="socials">
+      <a href="https://facebook.com/freecodecamp" target="_blank">
+        <img src="./img/icons/facebook.svg" alt="facebook icon">
+        Facebook
+      </a>
+      <a href="https://github.com/freecodecamp" target="_blank">
+        <img src="./img/icons/github.svg" alt="github icon">
+        GitHub
+      </a>
+      <a href="https://twitter.com/freecodecamp" target="_blank">
+        <img src="./img/icons/twitter.svg" alt="twitter icon">
+        Twitter
+      </a>
+      <a href="mailto:example@example.com" target="_blank">
+        <img src="./img/icons/at.svg" alt="at icon">
+        Send a mail
+      </a>
+      <a href="https://cdpn.io/freeCodeCamp/fullpage/tel:555-555-5555" target="_blank">
+        <img src="./img/icons/mobile.svg" alt="mobile icon">
+        Call me
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+    <p>© Created for <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp
+    <img src="./img/free-code-camp-brands.svg" alt="freecodecamp icon"></a>
+    </p>
+  </footer>
 </body>
 </html>
